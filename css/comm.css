@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.font_small {
+  font-size: 0.8rem; }
+
+a, a:hover {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+/*设置头和脚的尺寸*/
+.header_size,.footer_size{
+  width: 100%;
+}
+@media (min-width:992px) {
+  .header_size{
+    height: 6rem;
+  }
+  .footer_size{
+    height: 16rem;
+  }
+}
+@media (max-width: 991px) {
+  .header_size {
+    height: 12rem;
+  }
+
+  .footer_size {
+    height: 30rem;
+  }
+}

@@ -1,0 +1,53 @@
+/*设置头和脚的尺寸*/
+.header_size.footer_size{
+    width: 100%;
+}
+@media (min-width: 992px) {
+    .header_size{
+        height: 5rem;
+    }
+    .footer_size{
+        height: 16rem;
+    }
+}
+@media (max-width: 991px) {
+    .header_size{
+        height: 12rem;
+    }
+    .footer_size{
+        height: 30rem;
+    }
+}
+.carousel-control-prev,.carousel-control-next{
+    width:4%;height:20%;
+    top:40%;
+    background-color:#aaa;
+    border-radius:0.25rem;
+}
+.carousel-indicators li{
+    width:0.7rem;height:0.7rem;
+    border-radius: 50%;
+    background: #fff;
+}
+.carousel-indicators .active{
+    background-color: #0aa1ed;
+}
+.border-bottom{
+    border-width: 0.25rem !important;
+}
+.title-font{
+    font-size: 1rem;
+    font-weight: bold;
+    color:#666;
+    margin-left: 0.25rem;
+}
+.top_height{height:23.5rem;}
+.bottom_height{height:14.5rem;}
+.bg_floor{background:#e8e8e8;}
+.w-40{width:40%;}
+.img_position_1{margin-top:-190px;margin-right:20px;
+    transition:1s;
+}
+.img_position_1:hover{
+    transform:scale(1.1);
+}

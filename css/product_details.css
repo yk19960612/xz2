@@ -1,0 +1,9 @@
+.breadcrumb-item+.breadcrumb-item::before{
+    content:">";
+}
+.my_img_size>li>img{
+    width:6rem;
+}
+.my_img_size>li>li{
+    
+}

@@ -1,0 +1,29 @@
+.bg_gray{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.my_btn1_size{
+    height: 1.5rem;width: 1.5rem;
+    outline: 0;
+}
+.my_btn1_size:hover{
+    background: #999;
+}
+.mg_img_hover{
+    transition: 1s;
+}
+.mg_img_hover:hover{
+    transform: scale(1.1);
+}
+.w-80{width: 80%;}
+
+.page-item+.page-item{
+    margin-left: 0.2rem;
+}
+.page-item.page-link{
+    border-radius: 0.25rem !important;
+}
+.img_sm{
+    width:0.9rem;
+}
+.border-top{border-top-style:dashed; !important;}
+.w-40{width: 40%}
